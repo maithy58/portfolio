@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>maithy — Miguel Angel Colina Contreras</title>
+  <meta name="description" content="Portefólio de maithy (Miguel Angel Colina Contreras): trabalhos, experiências e projetos visuais. TDM · ESTGV, Viseu.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0b0c'/%3E%3Ctext x='16' y='23' font-family='Arial Black' font-size='20' text-anchor='middle' fill='%23b79cff'%3Em%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Unbounded:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#selecao">Saltar para os projetos</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="topbar__logo" href="#top">maithy<span>.</span></a>
+    <nav aria-label="Principal">
+      <a href="#selecao">Projetos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <span class="status" data-site="availableText"></span>
+  </header>
+
+  <main id="top">
+    <!-- HERO ---------------------------------------------------------- -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero__meta label" aria-hidden="true">
+        <span>TDM · ESTGV</span>
+        <span data-site="place"></span>
+        <span>2026 —</span>
+      </div>
+
+      <h1 class="wordmark" data-text="maithy">maithy</h1>
+
+      <div class="hero__foot">
+        <div>
+          <p class="hero__name" data-site="fullName"></p>
+          <p class="hero__tagline serif" data-site="tagline"></p>
+        </div>
+        <div class="hero__actions">
+          <ul class="fragments" id="fragments" aria-label="Fragmentos de trabalhos"></ul>
+          <a class="arrow-link" href="#selecao">Ver trabalhos <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELEÇÃO ------------------------------------------------------- -->
+    <section class="section wrap" id="selecao" aria-labelledby="h-selecao">
+      <header class="section__head">
+        <span class="section__side">01</span>
+        <h2 id="h-selecao">Seleção</h2>
+        <p class="label" id="featured-count"></p>
+      </header>
+      <div class="featured" id="featured"></div>
+    </section>
+
+    <!-- OUTROS TRABALHOS ---------------------------------------------- -->
+    <section class="section wrap" id="outros" aria-labelledby="h-outros">
+      <header class="section__head">
+        <span class="section__side">02</span>
+        <h2 id="h-outros">Outros trabalhos</h2>
+        <p class="label" id="secondary-count"></p>
+      </header>
+      <div class="more" id="secondary"></div>
+    </section>
+
+    <!-- EM CURSO ------------------------------------------------------ -->
+    <section class="section wrap" id="em-curso" aria-labelledby="h-wip">
+      <header class="section__head">
+        <span class="section__side">03</span>
+        <h2 id="h-wip">Em curso</h2>
+        <p class="label">Em desenvolvimento</p>
+      </header>
+      <div class="wip" id="wip"></div>
+    </section>
+
+    <!-- ÍNDICE -------------------------------------------------------- -->
+    <section class="section wrap" id="indice" aria-labelledby="h-indice">
+      <header class="section__head">
+        <span class="section__side">04</span>
+        <h2 id="h-indice">Índice</h2>
+        <p class="label">Todos os trabalhos</p>
+      </header>
+      <div class="filters" role="group" aria-label="Filtrar por categoria" id="filters"></div>
+      <ul class="index" id="index"></ul>
+    </section>
+
+    <!-- SOBRE --------------------------------------------------------- -->
+    <section class="section wrap" id="sobre" aria-labelledby="h-sobre">
+      <header class="section__head">
+        <span class="section__side">05</span>
+        <h2 id="h-sobre">Sobre</h2>
+        <p class="label">Miguel / maithy</p>
+      </header>
+      <div class="about">
+        <div class="about__side">
+          <p class="about__lead serif reveal" id="about-lead"></p>
+          <figure class="about__photo reveal" id="about-photo"></figure>
+        </div>
+        <div class="about__body">
+          <div class="reveal" id="about-text"></div>
+          <div class="reveal">
+            <h3 class="label">Percurso</h3>
+            <ul class="timeline" id="timeline"></ul>
+          </div>
+          <div class="reveal">
+            <h3 class="label">Ferramentas usadas em trabalhos</h3>
+            <ul class="tags" id="skills"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Registos: fotografias pessoais -->
+      <div class="records reveal">
+        <h3 class="label">Registos — fotografias pessoais</h3>
+        <div class="records__grid" id="records"></div>
+      </div>
+    </section>
+
+    <!-- CONTACTO ------------------------------------------------------ -->
+    <section class="section wrap" id="contacto" aria-labelledby="h-contacto">
+      <header class="section__head">
+        <span class="section__side">06</span>
+        <h2 id="h-contacto">Contacto</h2>
+        <p class="label" data-site="availableText"></p>
+      </header>
+      <ul class="contact__list reveal" id="contacts"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 maithy — <span data-site="fullName"></span></span>
+    <span>Desenvolvido em HTML, CSS e JavaScript</span>
+    <a href="#top">Voltar ao topo ↑</a>
+  </footer>
+
+  <div class="preview" id="preview" aria-hidden="true"><img alt=""></div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+    <button class="lightbox__close" type="button" data-lb="close">Fechar ✕</button>
+    <img alt="">
+    <div class="lightbox__bar">
+      <button type="button" data-lb="prev">← Anterior</button>
+      <span class="lightbox__caption"></span>
+      <button type="button" data-lb="next">Seguinte →</button>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projeto — maithy</title>
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0b0c'/%3E%3Ctext x='16' y='23' font-family='Arial Black' font-size='20' text-anchor='middle' fill='%23b79cff'%3Em%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Unbounded:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#project">Saltar para o conteúdo</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="topbar__logo" href="index.html">maithy<span>.</span></a>
+    <nav aria-label="Principal">
+      <a href="index.html#selecao">Projetos</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+    <span class="status" data-site="availableText"></span>
+  </header>
+
+  <main class="wrap" id="project"></main>
+
+  <footer class="footer">
+    <span>© 2026 maithy — <span data-site="fullName"></span></span>
+    <a href="index.html#indice">Todos os trabalhos</a>
+    <a href="#top">Voltar ao topo ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+    <button class="lightbox__close" type="button" data-lb="close">Fechar ✕</button>
+    <img alt="">
+    <div class="lightbox__bar">
+      <button type="button" data-lb="prev">← Anterior</button>
+      <span class="lightbox__caption"></span>
+      <button type="button" data-lb="next">Seguinte →</button>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/projeto.js"></script>
+</body>
+</html>
